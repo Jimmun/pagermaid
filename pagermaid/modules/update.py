@@ -19,7 +19,7 @@ async def update(context):
     parameter = None
     if len(context.parameter) == 1:
         parameter = context.parameter[0]
-    repo_url = 'https://git.stykers.moe/scm/~stykers/pagermaid.git'
+    repo_url = 'https://github.com/Jimmun/pagermaid.git'
 
     try:
         repo = Repo()
